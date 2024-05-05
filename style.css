@@ -10,7 +10,7 @@ header {
 
 .header-wrapper {
     display:flex;
-    justify-content: space-between;;
+    justify-content: space-around;
     align-items: center;
 }   
 .header-wrapper ul {
@@ -30,3 +30,52 @@ a {
     color: #F9FAF8;
     font-weight:bold;
 }
+
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.content {
+    background: #1F2937;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.content-wrapper {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.maintext-wrapper {
+    display:flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 300px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
