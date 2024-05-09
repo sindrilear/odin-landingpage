@@ -106,10 +106,7 @@ button {
   }
 
   .infoimg {
-    flex: 1;
-    max-width: 20%;
-    max-height: 20%;
-    object-fit: contain;
+    max-width: 100%;
   }
 
   .inspiration {
@@ -127,7 +124,7 @@ button {
     font-style: italic;
     color:#1F2937;
     font-family: sans-serif;
-    font-weight:lighter;
+    font-weight: lighter;
   }
   .quote {
     display:flex;
