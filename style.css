@@ -10,8 +10,9 @@ header {
 
 .header-wrapper {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    flex: 1;
 }   
 .header-wrapper ul {
     display:flex;
@@ -31,7 +32,7 @@ a {
     font-weight:bold;
 }
 
-img {
+.stockimg {
     max-width: 25%;
     max-height: 25%;
 }
@@ -79,3 +80,33 @@ button {
     font-weight: bold;
 }
 
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .cardswrapper {
+    display:flex;
+    flex: 1;
+    padding: 10px;
+    width: 800px;
+    gap:40px;
+    align-items: center;
+    justify-content:space-evenly;
+    max-height: 100%;
+  }
+
+  .informationtext {
+    font-size: 36px;
+    font-weight:bolder;
+    color:#1F2937;
+  }
+
+  .infoimg {
+    flex: 1;
+    max-width: 20%;
+    max-height: 20%;
+    object-fit: contain;
+  }
