@@ -85,6 +85,7 @@ button {
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-bottom:40px;
   }
 
   .cardswrapper {
@@ -109,4 +110,31 @@ button {
     max-width: 20%;
     max-height: 20%;
     object-fit: contain;
+  }
+
+  .inspiration {
+    display: flex;
+    background: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+  }
+
+  .inspoquote {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-family: sans-serif;
+    font-weight:lighter;
+  }
+  .quote {
+    display:flex;
+    font-size: 16px;
+    width: 800px;
+    margin-top: auto;
+    justify-content:flex-end;
+    font-weight:bolder;
+    font-family: sans-serif;
   }
