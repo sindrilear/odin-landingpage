@@ -60,6 +60,7 @@ a {
     flex-direction: column;
     padding: 16px;
     width: 300px;
+    gap: 16px;
 }
 
 .secondary-text {
