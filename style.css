@@ -32,7 +32,7 @@ a {
 }
 
 .stockimg {
-    width: 300px;
+    width: 40%;
 }
 
 .content {
@@ -52,15 +52,15 @@ a {
     align-items: center;
     padding-bottom: 50px;
     flex-wrap: wrap;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .maintext-wrapper {
     display:flex;
     flex-direction: column;
     padding: 16px;
-    width: 300px;
+    width: 50%;
     gap: 16px;
 }
 
@@ -123,8 +123,8 @@ button {
     justify-content: center;
     padding: 80px;
     flex-wrap:wrap;
-    padding-right: 400px;
-    padding-left: 400px;
+    padding-right: 20%;
+    padding-left: 20%;
   }
 
   .inspoquote {
@@ -153,8 +153,8 @@ button {
 
   .calltobox{
     display:flex;
-    width: 1000px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     background-color: #3882F6;
     justify-content: space-evenly;
     align-items: center;
